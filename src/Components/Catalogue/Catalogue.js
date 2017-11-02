@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Catalogue.css";
 import {Shirts, Shoes, Pants, Sales} from "./nestedCatalogue"
-import {Link} from 'react-router-dom'
+import {Route, Link} from 'react-router-dom'
 class Catalogue extends React.Component{
     render(){
         return(

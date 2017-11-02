@@ -1,3 +1,9 @@
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
 .subHead {
     background: #437578;
     padding: 5% 0 5% 0;
@@ -11,7 +17,7 @@
     display: inline-block;
 }
 #shirt_title {
-    padding-top: 17vh
+    padding: 17vh 0 13.5vh 0;
 }
 #shoes {
     height: 40vh;
@@ -21,7 +27,7 @@
     display: inline-block;
 }
 #shoes_title {
-    padding-top: 17vh
+    padding: 17vh 0 13.5vh 0;
 }
 #pants {
     height: 40vh;
@@ -31,7 +37,7 @@
     display: inline-block;
 }
 #pants_title {
-    padding-top: 17vh
+    padding: 17vh 0 13.5vh 0;
 }
 #sales{
     text-align: center;
@@ -39,5 +45,5 @@
     height: 33vh;
 }
 #sales_title {
-    padding-top: 15vh
+    padding: 15vh 0 10vh 0;
 }

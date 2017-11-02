@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 // Shirts
 class Shirts extends React.Component{
     constructor(props) {
@@ -9,6 +10,7 @@ class Shirts extends React.Component{
         return(
             <div className="nav-bar">
                 <Link to="catalogue/shirts"><h1 id="shirt_title">Shirts</h1></Link>
+
             </div>
         )
     }
@@ -16,9 +18,6 @@ class Shirts extends React.Component{
 // End Shirts
 // Shoes
 class Shoes extends React.Component{
-    constructor(props) {
-        super(props)
-    }
 
     render(){
         return(
@@ -53,7 +52,7 @@ class Sales extends React.Component{
     render(){
         return(
             <div className="sales">
-                <Link to="catalogue/sales"><h1 id="sales_title">Pants</h1></Link>
+                <Link to="catalogue/sales"><h1 id="sales_title">Sales</h1></Link>
             </div>
         )
     }
