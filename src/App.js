@@ -7,7 +7,8 @@ class App extends Component {
       return (
         <BrowserRouter>
             <div className="App">
-              <Header />
+                <Header />
+
             </div>
         </BrowserRouter>
       );

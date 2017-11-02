@@ -1,0 +1,43 @@
+.subHead {
+    background: #437578;
+    padding: 5% 0 5% 0;
+    text-align: center;
+}
+#shirts {
+    height: 40vh;
+    width: 33vw;
+    text-align: center;
+    background: pink;
+    display: inline-block;
+}
+#shirt_title {
+    padding-top: 17vh
+}
+#shoes {
+    height: 40vh;
+    width: 34vw;
+    text-align: center;
+    background: blue;
+    display: inline-block;
+}
+#shoes_title {
+    padding-top: 17vh
+}
+#pants {
+    height: 40vh;
+    width: 33vw;
+    text-align: center;
+    background: green;
+    display: inline-block;
+}
+#pants_title {
+    padding-top: 17vh
+}
+#sales{
+    text-align: center;
+    background: #437578;
+    height: 33vh;
+}
+#sales_title {
+    padding-top: 15vh
+}
