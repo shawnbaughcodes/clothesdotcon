@@ -5,15 +5,17 @@
 	border: 0;
 }
 .subHead {
-    background: #437578;
+    background: black;
     padding: 5% 0 5% 0;
     text-align: center;
+}
+.subHead h1 {
+    color: white;
 }
 #shirts {
     height: 40vh;
     width: 33vw;
     text-align: center;
-    background: pink;
     display: inline-block;
 }
 #shirt_title {
@@ -23,7 +25,6 @@
     height: 40vh;
     width: 34vw;
     text-align: center;
-    background: blue;
     display: inline-block;
 }
 #shoes_title {
@@ -33,7 +34,6 @@
     height: 40vh;
     width: 33vw;
     text-align: center;
-    background: green;
     display: inline-block;
 }
 #pants_title {
@@ -41,9 +41,8 @@
 }
 #sales{
     text-align: center;
-    background: #437578;
     height: 33vh;
 }
 #sales_title {
-    padding: 15vh 0 10vh 0;
+    padding: 14vh 0 10vh 0;
 }

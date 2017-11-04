@@ -1,0 +1,25 @@
+#shirtItem {
+    width: 30vw;
+    height: 60vh;
+    background: #333;
+    margin: 2%;
+    display: inline-block;
+}
+#shirtPicture {
+    width:80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#shirtActionButtons {
+    text-align: center;
+}
+#shirtAddButton {
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+}
+#shirtBuyButton {
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Header.css";
 import Catalogue from "../Catalogue/Catalogue.js"
+import ShirtsPage from "../Shirts/ShirtsPage.js"
 import {Route, Link} from 'react-router-dom'
 import {StickyContainer, Sticky} from 'react-sticky';
 class Header extends React.Component{
@@ -33,6 +34,8 @@ class Header extends React.Component{
                                         </ul>
                                     </div>
                                     <Route path="/catalogue" component={Catalogue} />
+                                    <Route path="/shirts" component={ShirtsPage} />
+
                                 </nav>
                             )
                         }
