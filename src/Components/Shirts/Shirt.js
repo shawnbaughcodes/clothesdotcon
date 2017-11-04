@@ -14,10 +14,10 @@ class Shirt extends React.Component{
                 </div>
                 <div id="shirtActionButtons">
                     <div id="shirtAddButton">
-                        <h2 className="h2">Add To Cart</h2>
+                        <Link to="" className="h2">Add To Cart</Link>
                     </div>
                     <div id="shirtBuyButton">
-                        <h2 className="h2">Buy Now</h2>
+                        <Link to="" className="h2">Buy Now</Link>
                     </div>
                 </div>
             </div>
