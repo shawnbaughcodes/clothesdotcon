@@ -8,17 +8,9 @@ class Shirt extends React.Component{
 
     render(){
         return(
-            <div className="col shirtItem">
+            <div className="shirtItem">
                 <div id="shirtPicture">
-                    <img src="http://www.patagonia.ca/dis/dw/image/v2/ABBM_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwc89f3efd/images/hi-res/52921_CTYB.jpg?sw=750&sh=750&sm=fit&sfrm=png"/>
-                </div>
-                <div id="shirtActionButtons">
-                    <div id="shirtAddButton">
-                        <Link to="" className="h2">Add To Cart</Link>
-                    </div>
-                    <div id="shirtBuyButton">
-                        <Link to="" className="h2">Buy Now</Link>
-                    </div>
+                    <img src="https://cdn.lookastic.co.uk/navy-and-white-gingham-long-sleeve-shirt/ging-crosby-gingham-standard-fit-sport-shirt-original-16076.jpg"/>
                 </div>
             </div>
         )

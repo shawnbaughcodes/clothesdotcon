@@ -1,0 +1,16 @@
+#sidebar {
+    background: #C6C5B9;
+    margin-top: 2%;
+}
+#shirtsSideBar h3 {
+    margin-top: 3%;
+    text-align: center;
+    border-bottom: 3px black solid;
+}
+#shirtTypes li {
+    text-align: center;
+    font-size: 15pt;
+}
+.content {
+    
+}

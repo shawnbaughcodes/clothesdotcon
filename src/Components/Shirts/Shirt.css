@@ -1,33 +1,5 @@
 #shirtItem {
-    width: 30vw;
-    height: 65vh;
-    background: #333;
+    width: 15vw;
     margin: 2%;
     display: inline-block;
-    border: 1px #333 solid;
-}
-#shirtPicture {
-    width: 100%;
-
-}
-#shirtActionButtons {
-    text-align: center;
-}
-#shirtAddButton {
-    display: inline-block;
-    text-align: center;
-    padding: 2%;
-}
-#shirtAddButton a {
-    font-size: 31pt;
-    color: #998654;
-}
-#shirtBuyButton {
-    display: inline-block;
-    text-align: center;
-    padding: 2%;
-}
-#shirtBuyButton a {
-    font-size: 31pt;
-    color: #998654;
 }

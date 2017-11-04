@@ -1,4 +1,5 @@
 @import "../src/kube-6.5.2/dist/css/kube.css";
 .App {
     overflow: hidden;
+    height: 100vh;
 }

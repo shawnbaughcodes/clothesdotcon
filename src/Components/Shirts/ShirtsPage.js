@@ -9,9 +9,26 @@ class ShirtsPage extends React.Component{
 
     render(){
         return(
-            <div className="shirtsPage">
-                <div id="shirtItem">
-                    <Shirt/>
+            <div className="row">
+                <div className="col col-8 push-middle push-center shirtsPage">
+                    <div className="row gutters">
+                        <div className="col col-3" id="sidebar">
+                            <div id="shirtsSideBar">
+                                <h3 className="h3">Shirts</h3>
+                                <div id="shirtTypes">
+                                    <ol>
+                                        <li>All</li>
+                                        <li>Long Sleve</li>
+                                        <li>Short Sleeve</li>
+                                        <li>Tanks</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col col-9 content" id="shirtItem">
+                            <Shirt/>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
