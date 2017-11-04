@@ -1,16 +1,23 @@
 #sidebar {
-    background: #C6C5B9;
+    /*background: #C6C5B9;*/
     margin-top: 2%;
+    height: 30vh;
 }
 #shirtsSideBar h3 {
     margin-top: 3%;
     text-align: center;
-    border-bottom: 3px black solid;
+    border-bottom: 2px black solid; 
 }
 #shirtTypes li {
     text-align: center;
     font-size: 15pt;
+    margin-bottom: 2%;
+}
+#shirtTypes li:hover {
+    text-decoration: line-through;
+    background: white;
+    cursor: pointer;
 }
 .content {
-    
+
 }

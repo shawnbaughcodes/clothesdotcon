@@ -6,7 +6,9 @@ class ShirtsPage extends React.Component{
     constructor(props) {
         super(props)
     }
-
+    componentDidMount() {
+        console.log('ShirtsPage loaded...');
+    }
     render(){
         return(
             <div className="row">
@@ -25,8 +27,11 @@ class ShirtsPage extends React.Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="col col-9 content" id="shirtItem">
-                            <Shirt/>
+                        <div className="col col-9 content">
+                            <div id="shirtItem">
+
+                                <Shirt/>
+                            </div>
                         </div>
                     </div>
                 </div>
